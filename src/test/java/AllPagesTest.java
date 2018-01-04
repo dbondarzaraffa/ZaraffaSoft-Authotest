@@ -54,7 +54,7 @@ public class AllPagesTest {
         @Test
         public void allPages() {
             WebDriverWait wait = new WebDriverWait(driver, 10, 500);
-/*
+
 //Every test should return to the home page
 //"get free quote" button clicking on the home page
             driver.findElement(By.cssSelector(".header__content [href='/contacts.html#contacts']")).click();
@@ -85,7 +85,7 @@ public class AllPagesTest {
             System.out.println("\n" + "5. 'Terravision Group case' page after 'READ CASE' button clicking "+ driver.getCurrentUrl());
             driver.findElement(By.cssSelector(".top-line [href='/index.html']")).click();
 
-*/
+
 //"TALL storIES @ Clutch" button clicking on the home page
             driver.findElement(By.cssSelector("a[href='https://clutch.co/profile/zaraffasoft#reviews'][class='btn-color']")).click();
             switchToNewTab();
